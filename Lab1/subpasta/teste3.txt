@@ -1,0 +1,7 @@
+Faça um programa que
+• Comece em diretório;
+• Avance pela árvore de diretórios armazenando:
+– o nome de cada arquivo;
+– o tamanho de cada arquivo.
+• Por fim:
+– Imprima o nome dos arquivos ordenados pelo tamanho em ordem decrescente.

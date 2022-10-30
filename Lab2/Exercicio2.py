@@ -2,7 +2,7 @@ import os
 import time
 from pwd import getpwuid
 tamanhos={}
-diretorio=os.getcwd()
+diretorio= input("Digite o diretório")
 
 print(diretorio)
 print("Diretorio: ",diretorio)
@@ -39,3 +39,4 @@ for raiz, pastas, arquivos in os.walk(diretorio, topdown=True):
          author=getpwuid(author_id).pw_name
          print("Arquivo: ",i,"Tamanho: ",tamanho,"bytes"," Atualizado por último: ",ultima_att," Criado: ",dt_criacao," Autor:",author)
          print()
+           
